@@ -3,7 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background: hsl(177, 100%, 50%);
-  font: caption;
+.container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: 90%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+  height: auto;  
+}
+a {
+  text-decoration: none;
 }
