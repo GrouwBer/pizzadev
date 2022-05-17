@@ -94,7 +94,7 @@ h1 {
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
 }
-/* 
+
 
 .dev .text {
   margin-left: 1.5rem;
@@ -107,8 +107,20 @@ h1 {
 }
 .dev .text h1 {
   margin-bottom: 1rem;
+  font: 400 4rem "Dancing Script", Dancing-Script;
 }
 
 .dev .text p {
-  margin-bottom: 2rem;
-} */
+  margin-bottom: 2.5rem;
+  font: 500 2rem "Dm Sans", sans-serif;
+} 
+
+.dev .botao {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+.dev span
+{
+  color: var(--base-color);
+}
