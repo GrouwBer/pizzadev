@@ -42,6 +42,73 @@ h1 {
   font: 700 1rem "Poppins", "sans-serif";
   color: var(--title-color);
 }
+
+nav .menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
+nav.show .menu {
+  opacity: 1;
+  visibility: visible;
+  background: red;
+  height: 100vh;
+  width: 100vw;
+  top:0;
+  left: 0;
+  position: fixed;
+
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(
+     270deg,
+     hsla(var(--hue),36%,57%,1) 0%,
+     hsla(var(--hue),65%,88%,0.34) 100%
+  );
+}
+
+.section {
+  padding: 1.5rem 0;
+}
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+#home .text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+#home .image {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+#home .text h1 {
+  margin-bottom: 1.5rem;
+}
+
+#home .text p {
+  margin-bottom: 2rem;
+}
+
+#button:hover {
+   background: var(--base-color-alt);
+
+}
+.button {
+  background: var(--base-color);
+  color: var(--text-color-light);
+  display: inline-flex;
+  height: 3.5rem;
+  align-items: center;
+  padding: 0 2rem;
+  font: 500 1rem "Dm Sans", sans-serif;
+  transform: background 0.3s;
+}
+
 :root {
   --header-height: 4.5rem;
   --hue: 159;
@@ -53,38 +120,45 @@ h1 {
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
 }
-
-.section {
-  padding: 1.5rem 0;
+main{
+  margin-top: 4.55rem;
 }
-.grid { 
-  display: grid;
-  gap: 2rem;
-}
+#header {
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: 100;
+  display: flex;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e4e4e4;
+  background-color: var(--body-color);
+}  
 
-.home .text {
+#dev .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   text-align: center;
 }
-.home .image {
+#dev .image {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
-.home .text h1 {
+#dev .text h1 {
   margin-bottom: 1rem;
+  font: 400 4rem "Dancing Script", Dancing-Script;
 }
 
-.home .text p {
-  margin-bottom: 2rem;
+#dev .text p {
+  margin-bottom: 2.5rem;
+  font: 500 2rem "Dm Sans", sans-serif;
+} 
+
+#dev .botao {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
 }
-.button {
-  background-color: var(--base-color-alt);
-  color: var(--text-color-light);
-  display: inline-flex;
-  height: 3.5rem;
-  align-items: center;
-  padding: 0 2rem;
-  font: 500 1rem 'Dm Sans', sans-serif;
-  transform: background 0.3s;
+#dev span
+{
+  color: var(--base-color);
 }
