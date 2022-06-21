@@ -13,9 +13,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
     rel="stylesheet" />
-  <link 
-   href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" 
-   rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="assets/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,69 +23,114 @@
       <a class="logo" href="#">
         <h1>Pizza<span>DEV</span></h1>
       </a>
-        <div>
-          <h1>...</h1>
-        </div>
+      <div class="menu">
+        <ul class="grid">
+          <li><a href="#home" class="title">Inicio</a></li>
+          <li><a href="#contatos" class="title">contatos</a></li>
+          <li><a href="#servicos" class="title">servicos</a></li>
+          <li><a href="#dev" class="title">Sobre</a></li>
+          </ui>
+      </div>
+
+
+      <div class="toggle icon-close"></div>
+      <div class="icone">
+        <i class="toggle icon-sus-ttulo"></i>
+      </div>
+      
+
     </nav>
+
+
   </header>
 
   <main>
     <!-- Página 1 -->
-    <section class="home">
+    <section id="home">
       <div class="container grid">
         <div class="imagem">
-          <img
-            src="img/img.avif"
-            alt="pizza gostosa" />
+          <img src="img/img.avif" alt="pizza gostosa" />
         </div>
-        <div class="text">
-          <h1>Venha conhecer a melhor pizza da cidade</h1>
+        <div class="texto">
+          <h1 class="title">Venha conhecer a melhor pizza da cidade</h1>
           <p>temos pizza de todos sabores!</p>
           <a href="#" class="button">conheça nosso cardápio !!!</a>
         </div>
     </section>
+    <div class="divider"></div>
 
     <!-- Página 2 -->
-    <section class="section">
+
+
+
+    <section id="dev">
+      <div class="container grid">
+        <div class="imagem">
+          <img src="img/pizzaimg.avif" alt="pizza gostosa" />
+        </div>
+      </div>
+      <div class="texto">
+        <h1 class="title">Sobre nós</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id
+          accumsan felis tristique. Proin quis bibendum diam. Sed consequat nisl laoreet eros ultricies pellentesque.
+          Nullam in est porta, pellentesque massa vitae, vehicula risus. </p>
+
+        <p> In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut pretium urna turpis eu dui. Vestibulum id
+          ullamcorper nibh. Donec luctus, nunc finibus elementum suscipit, tortor augue vulputate sapien, vitae feugiat
+          enim augue sed.</p>
+
+        <p>Quisque id aliquam elit. Suspendisse congue pharetra maximus. Duis rutrum velit a leo euismod dictum. Sed
+          sodales est efficitur arcu tincidunt tincidunt. Curabitur fringilla, risus at feugiat feugiat, nisl nulla
+          tincidunt tellus, elementum elementum lorem nisl eleifend dolor. Nullam eget dui at sem ullamcorper luctus.
+        </p>
+      </div>
+    </section>
+<div class="divider"></div>
+    <!-- Página 3 -->
+
+    <section id="servicos">
       <div class="container"></div>
+
+      <h2 class="title">Serviços</h2>
+
+      <p class="justify-text">Com mais de 10 anos no mercado, O pizza dev já conquistou clientes de inumeras cidades
+        oferecendo oferecendo a melhor pizza da região </p>
+      <div class="card grid">
+        <i class="icon-pizza-box"></i>
+      </div>
+
+      <h2 class="title">Entrega Premium</h2>
+      <p class="justify-text"> A nossa equipe é repleta de profissionais treinados que irao proporcionar a melhor
+        experiencia na entrega da sua pizza</p>
+
+      <div class="card grid">
+        <i class="icon-pizza-delivery"></i>
+      </div>
+
+      <h2 class="title">sabores</h2>
+      <p class="justify-text">O pizza dev tem um cardapio repleto desabores . Você pode montar a pizza com até quato
+        sabores diferentes </p>
+
+      <div class="card grid">
+        <i class="icon-pizza-flavors"></i>
+      </div>
     </section>
 
-    <!-- Página 3 -->
-    <section class="section">
-      <div class="container"></div>
-    </section>
+
+
+    <div class="divider"></div>
 
     <!-- Página 4 -->
-    <section class="section">
+    <section id="contatos">
       <div class="container"></div>
+
+      <div class="divider"></div>
     </section>
-
-    <section class="dev">
-      <div class="container grid">
-        
-        <div class="text">
-          <h1>Gustavo Rodrigues de <span>Souza</span></h1>
-          <p>Me chamo gustavo rodrigues de souza tenho 17 anos faço aniversario dia vinte e dois de março gosto de jogar roblox e minecraft e tocar baixo 
-          </p>
-          <p>
-            a tag &lt;a&gt; é utilizada pra criar um link, a tag &lt;p&gt; é para criar um parágrafo ; A tag &lt;nav&gt; Não causa efeitos visuais em seu site e é utilizada apenas para representar uma area com links;
-            a tag &lt;span&gt; agrupa um pedaço de um texto para que se possa adicionar estilos.
-          </p>
-
-        
-        </div>
-        <div class="imagem">
-          <img
-            src="img/eu.jpg"
-            alt="eu" />
-        </div>
-        <div class="botao"> <a href="https://steamcommunity.com/profiles/76561198857217322" target="_blank" class="button">STEAM!!!</a></div>
-      </div>
-      </section>
-        
   </main>
 
+  </section>
   <footer></footer>
+  <script src="main.js"></script>
 </body>
 
 </html>
